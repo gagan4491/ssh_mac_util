@@ -30,7 +30,7 @@ if __name__ == "__main__":
     if args.selected_text:
         # Get the IP or hostname before the slash if needed
         final_host = str(args.selected_text.split('/')[0]).strip()
-        print(final_host)
+        # print(final_host)
         open_iterm2(final_host)
     else:
         print("Please provide the selected text to open an SSH session.")
